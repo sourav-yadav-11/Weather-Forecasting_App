@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Weather Forecasting</title>
+    <style>
+        body{
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-image: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-2430.jpg");
+        }
+        div{
+            position: relative;
+            left: 35%;
+            padding: 1% 0 2% 0;
+            width: 30%;
+            text-align: center;
+            margin-top: 19%;
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+            background-color: rgba(131, 168, 255, 0.3);
+        }
+        div:hover {
+            background: rgba(81, 133, 255, 0.3); 
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Enter your Location</h1>
+        <form action="/" method="post">
+            <input type="text" name="city" autofocus>
+            <button type="submit"> Get Details</button>
+        </form>
+    </div>
+</body>
+</html>
